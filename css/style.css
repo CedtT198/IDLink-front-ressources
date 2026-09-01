@@ -1,11 +1,29 @@
 .toast-bottom-center {
     position: fixed;
-    top: 24px;
-    /* left: 50%; */
+    bottom: 24px;
+    left: 50%;
     transform: translateX(-50%);
     z-index: 1080;
     min-width: 300px;
     max-width: 90vw;
+}
+
+.toast-bottom-right {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1080;
+    min-width: 300px;
+    max-width: 350px;
+}
+
+.toast-top-right {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 1080;
+    min-width: 300px;
+    max-width: 350px;
 }
 
 @keyframes toast-slide-in {
