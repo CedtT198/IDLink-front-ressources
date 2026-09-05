@@ -1,6 +1,6 @@
 .content-tight-x {
-  padding-left: 0.25rem !important;
-  padding-right: 0.25rem !important;
+  padding-left: calc(var(--bs-gutter-x, 1.5rem) / 2) !important;
+  padding-right: calc(var(--bs-gutter-x, 1.5rem) / 2) !important;
 }
 
 .toast-bottom-center {
