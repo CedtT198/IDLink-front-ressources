@@ -9,6 +9,10 @@
 }
 
 /* Navbar */
+.navbar {
+  background-color: black;
+}
+
 #layout-navbar {
   position: fixed;
   top: 0;
