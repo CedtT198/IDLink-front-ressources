@@ -59,3 +59,17 @@
 .toast-slide-out {
   animation: toast-slide-out 0.3s ease-in forwards;
 }
+
+#layout-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+
+#layout-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
