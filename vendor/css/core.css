@@ -15278,7 +15278,6 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   height: 3.875rem;
   flex-wrap: nowrap;
   color: #697a8d;
-  background-color: black;
   z-index: 2;
 }
 .layout-navbar .navbar {
@@ -16330,7 +16329,7 @@ html:not(.layout-footer-fixed) .content-wrapper {
 }
 
 .navbar.bg-dark {
-  background-color: #0000 !important;
+  background-color: black !important;
   color: #e4e6e8;
 }
 .navbar.bg-dark .navbar-brand,
